@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kaii Lin Novel</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#08080b;--card:#121217;--tx:#f4f4f8;--mu:#8b8b99;--cy:#00e5ff;--pk:#ff1f8e;--bd:#25252d}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font-family:Inter,system-ui,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.w{max-width:1000px;margin:auto;padding:0 18px}
+.top{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;gap:10px}
+.logo{font-weight:800;font-size:28px;display:flex;align-items:center;gap:10px;color:var(--tx)}.logo span,.logo svg{color:var(--cy);text-shadow:0 0 18px #00e5ff88}
+.hb{display:flex;gap:10px}
+.pill{display:flex;align-items:center;gap:8px;padding:12px 18px;border-radius:99px;border:1px solid var(--bd);font-weight:600;font-size:14px;color:var(--mu);white-space:nowrap}
+.pill.cy{background:var(--cy);color:#00161a;border-color:var(--cy);box-shadow:0 0 26px #00e5ff77}
+.vip{display:flex;gap:14px;align-items:center;padding:18px;border-top:1px solid var(--bd);border-bottom:1px solid var(--bd);font-size:15px}
+.crown{flex:none;width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,#ff2d75,#ff7a3d);display:grid;place-items:center;color:#fff}
+.bdg{background:var(--pk);color:#fff;font-weight:700;font-size:13px;padding:2px 12px;border-radius:99px;margin-right:6px}
+nav{display:flex;gap:10px;overflow-x:auto;padding:16px 18px;border-bottom:1px solid var(--bd);scrollbar-width:none}
+nav a{display:flex;align-items:center;gap:10px;padding:14px 22px;border-radius:99px;font-weight:600;white-space:nowrap;border:1px solid var(--bd);background:var(--card)}
+nav a.on{border-color:var(--cy);color:var(--cy);box-shadow:0 0 18px #00e5ff44}
+.sec{display:flex;justify-content:space-between;align-items:center;margin:26px 0 14px}.sec h2{margin:0;font-size:22px;display:flex;gap:12px;align-items:center}.sec svg{color:var(--cy)}
+.emp{color:var(--mu);font-size:22px;margin:10px 0}
+.ad{margin:18px 0;border-radius:22px;overflow:hidden;text-align:center;background:var(--card);border:1px solid var(--bd)}.ad img,.ad video{max-width:100%;display:block;margin:auto}
+.ad.ph{padding:62px 10px;color:#5d5d6b;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.nv{background:var(--card);border:1px solid var(--bd);border-radius:16px;overflow:hidden;transition:.2s}.nv:hover{transform:translateY(-3px);border-color:var(--cy)}
+.nv img,.pc{width:100%;aspect-ratio:3/4;object-fit:cover;display:block;background:linear-gradient(135deg,#0e3d4a,#4a0f33)}
+.nv div.i{padding:9px 11px;font-size:13px}.nv b{display:block;line-height:1.3}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;margin:3px 2px;border-radius:99px;background:var(--card);border:1px solid var(--bd);font:inherit;font-size:13px;color:var(--mu);cursor:pointer}
+.chip.on{background:var(--cy);color:#00161a;border-color:var(--cy);font-weight:600}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:22px;padding:20px;margin:14px 0}
+label,.lb{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mu);font-weight:600}
+input,select,textarea,button{font:inherit;color:var(--tx)}
+input,select,textarea{width:100%;padding:12px 14px;border:1px solid var(--bd);border-radius:14px;background:var(--bg);margin:6px 0 14px}
+input[type=checkbox]{width:auto;margin:0 8px 0 0;vertical-align:middle}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--cy);color:#00161a;border:0;padding:11px 20px;border-radius:99px;cursor:pointer;font-weight:700}
+.btn.s{background:var(--bd);color:var(--tx)}.btn.d{background:#dc2626;color:#fff}.btn[disabled]{opacity:.4}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:12px 0;border-bottom:1px solid var(--bd);flex-wrap:wrap}
+.rd{font-size:18px;line-height:1.9;white-space:pre-wrap}
+.cov{display:flex;gap:18px;flex-wrap:wrap}.cov img,.cov .pc{width:160px;border-radius:14px;aspect-ratio:3/4;object-fit:cover}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:560px){.g2{grid-template-columns:1fr}}
+footer{margin-top:40px;padding:26px 0;border-top:1px solid var(--bd);color:var(--mu);font-size:13px;text-align:center}footer a{color:var(--cy);font-weight:600}
+.star{background:none;border:0;cursor:pointer;color:#4a4a58;padding:2px}.star.on,.gold{color:#fbbf24}.cm{padding:12px 0;border-bottom:1px solid var(--bd)}.cm p{margin:4px 0;white-space:pre-wrap;word-break:break-word}.ab{background:var(--cy);color:#00161a;font-size:11px;font-weight:700;padding:1px 8px;border-radius:99px;margin-left:6px}
+small{color:var(--mu)}svg{vertical-align:-4px}
+</style></head><body>
+<header><div class="top"><a href="#/" class="logo" id="lg"></a><div class="hb" id="hb"></div></div><div id="ban"></div><nav id="nav"></nav></header>
+<main class="w" id="app"></main>
+<footer><div class="w" id="foot"></div></footer>
+<script>
+const P={star:'<path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/>',book:'<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>',phone:'<rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/>',shield:'<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',crown:'<path d="m2 4 3 12h14l3-12-6 7-4-7-4 7z"/><path d="M5 20h14"/>',flame:'<path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.4-.5-2-1-3-1.1-2.1-.2-4 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.2.4-2.4 1-3 0 1.4 1 2.5 2.5 2.5z"/>',cal:'<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',share:'<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/>',key:'<circle cx="7.5" cy="15.5" r="4.5"/><path d="m10.7 12.3 9.8-9.8M16 7l3 3M14 9l2 2"/>',home:'<path d="m3 11 9-8 9 8"/><path d="M5 10v10h14V10"/>',search:'<circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/>',lock:'<rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>',clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',check:'<path d="m5 12 5 5L20 7"/>',back:'<path d="m15 18-6-6 6-6"/>',fwd:'<path d="m9 18 6-6-6-6"/>',plus:'<path d="M12 5v14M5 12h14"/>',x:'<path d="M18 6 6 18M6 6l12 12"/>',gear:'<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/>',mega:'<path d="m3 11 18-8v18L3 13z"/><path d="M11 17v4a2 2 0 0 1-4 0v-3"/>',out:'<path d="M9 21H5V3h4M16 17l5-5-5-5M21 12H9"/>',head:'<path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="2" y="14" width="5" height="7" rx="2"/><rect x="17" y="14" width="5" height="7" rx="2"/>',chat:'<path d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-6.2A8 8 0 1 1 21 12z"/>',user:'<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',book2:'<path d="M4 4h16v16H4z"/><path d="M8 9h8M8 13h8M8 17h5"/>'};
+const ic=(n,s=20)=>`<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${P[n]}</svg>`;
+const K='kln_v1',U='kln_unlock';let adm=false,tab='novel',cur=null,flt='Semua',q='';
+const now=()=>Date.now(),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const D={novels:[],ads:{top:{on:false},mid:{on:false},reader:{on:false}},
+set:{banner:'Untuk Bab Terbaru jika ingin membaca lebih awal 2-3 hari sebelum upload bisa join VIP MEMBER dan untuk top up bisa kabari WhatsApp admin yang ada di info saluran Kaii Lin Novel dan akan di berikan list dan juga setiap Minggu akan ada 3 kunci gratis untuk membaca novel premium',
+wa:'6281234567890',cats:'Romantis, Fantasi, Aksi, Drama, Misteri',keyInfo:'Setiap Minggu ada 3 kunci gratis. Cek info saluran Kaii Lin Novel atau hubungi admin via WhatsApp untuk top up VIP.',
+freeKeys:'',social:'Instagram|https://instagram.com\nTikTok|https://tiktok.com\nSaluran WhatsApp|https://whatsapp.com/channel',
+copy:'© 2026 Kaii Lin Novel. Seluruh konten dilindungi hak cipta. Dilarang menyalin tanpa izin.',call:'Butuh bantuan? Hubungi Call Service kami via WhatsApp.',extra:'Kebijakan Privasi • Syarat & Ketentuan • DMCA'}};
+let S;try{S=JSON.parse(localStorage.getItem(K))||D}catch(e){S=D}
+S.rt=S.rt||{};S.cm=S.cm||{};let MY;try{MY=JSON.parse(localStorage.getItem('kln_my'))||{}}catch(e){MY={}}
+const svMY=()=>{try{localStorage.setItem('kln_my',JSON.stringify(MY))}catch(e){}};
+const st=(on,z=22)=>`<svg width="${z}" height="${z}" viewBox="0 0 24 24" fill="${on?'currentColor':'none'}" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>`;
+const avg=n=>{const r=S.rt[n];return r&&r.c?r.s/r.c:0};
+const rtLine=n=>avg(n)?`<span class="gold">${st(1,18)}</span> <b>${avg(n).toFixed(1)}</b> <small>(${S.rt[n].c} ulasan)</small>`:'<small>Belum ada rating</small>';
+let UN;try{UN=JSON.parse(localStorage.getItem(U))||[]}catch(e){UN=[]}
+function sv(){try{localStorage.setItem(K,JSON.stringify(S))}catch(e){alert('Penyimpanan penuh! Pakai gambar/video lebih kecil atau gunakan link URL.')}}
+const pub=c=>c.at<=now(),fmt=t=>new Date(t).toLocaleString('id-ID',{dateStyle:'medium',timeStyle:'short'});
+const wa=m=>`https://wa.me/${S.set.wa}?text=${encodeURIComponent(m||'Halo admin Kaii Lin Novel')}`;
+function adH(s,ph){const a=S.ads[s];if(!a||!a.on||!a.src)return ph?'<div class="ad ph">-- Space Iklan Kosong --</div>':'';const m=a.type=='video'?`<video src="${esc(a.src)}" autoplay muted loop playsinline></video>`:`<img src="${esc(a.src)}" alt="iklan">`;return`<div class="ad">${a.link?`<a href="${esc(a.link)}" target="_blank" rel="noopener sponsored">${m}</a>`:m}</div>`}
+function shell(p){document.getElementById('lg').innerHTML=ic('book',34)+'KAII <span>LIN</span>';
+document.getElementById('hb').innerHTML=`<a class="pill" href="#/sosmed">${ic('phone',18)}SOSMED</a><a class="pill cy" href="#/admin">${ic('shield',18)}ADMIN</a>`;
+document.getElementById('ban').innerHTML=`<div class="vip"><div class="crown">${ic('crown',26)}</div><div><span class="bdg">VIP MEMBER</span>${esc(S.set.banner)}</div></div>`;
+const t=[['#/','Home','home'],['#/jadwal','Jadwal Upload','cal'],['#/sosmed','Sosmed','share'],['#/kunci','Dapatkan Kunci','key']];
+document.getElementById('nav').innerHTML=t.map(x=>`<a href="${x[0]}" class="${x[0]==p?'on':''}">${ic(x[2],22)}${x[1]}</a>`).join('');
+const s=S.set;document.getElementById('foot').innerHTML=`<p>${esc(s.call)} <a href="${wa('Halo Call Service Kaii Lin Novel')}" target="_blank">${ic('head',16)} Call Service</a></p><p>${esc(s.extra)}</p><p>${esc(s.copy)}</p>`}
+function go(){const h=location.hash||'#/',p=h.split('/');let v='',a='';scrollTo(0,0);
+if(h=='#/'||h=='#')a='#/',v=home();else if(h=='#/jadwal')a=h,v=jadwal();else if(h=='#/sosmed')a=h,v=sosmed();else if(h=='#/kunci')a=h,v=kunci();
+else if(h=='#/admin')v=adm?admin():login();else if(p[1]=='n')v=detail(+p[2]);else if(p[1]=='r')v=reader(+p[2],+p[3]);
+shell(a);document.getElementById('app').innerHTML=v}
+addEventListener('hashchange',go);
+const bk=(h,t)=>`<a href="${h}" class="chip">${ic('back',16)}${esc(t)}</a>`;
+function flist(){return S.novels.filter(n=>(flt=='Semua'||n.cat==flt)&&(n.title+n.tags).toLowerCase().includes(q.toLowerCase()))}
+function home(){const cats=['Semua',...S.set.cats.split(',').map(x=>x.trim()).filter(Boolean)],l=flist();
+return`${adH('top',1)}<div class="sec"><h2>${ic('flame',26)}Koleksi Novel Premium</h2><span style="color:var(--mu)" id="cnt">${l.length} novel</span></div>
+<input placeholder="Cari judul atau tag..." value="${esc(q)}" oninput="q=this.value;fl()"><div>${cats.map(c=>`<button class="chip ${c==flt?'on':''}" onclick="flt='${esc(c)}';go()">${esc(c)}</button>`).join('')}</div>
+<div id="gr" style="margin-top:12px">${cards(l)}</div>${adH('mid',1)}`}
+const cards=l=>l.length?`<div class="grid">${l.map(n=>`<a class="nv" href="#/n/${n.id}">${n.cover?`<img src="${n.cover}" alt="">`:'<div class="pc"></div>'}<div class="i"><b>${esc(n.title)}</b><small>${esc(n.cat)} • ${n.chapters.filter(pub).length} bab${avg(n.id)?` • <span class="gold">${st(1,12)}</span> ${avg(n.id).toFixed(1)}`:''}</small></div></a>`).join('')}</div>`:'<p class="emp">Belum ada novel</p>';
+function fl(){const l=flist();document.getElementById('gr').innerHTML=cards(l);document.getElementById('cnt').textContent=l.length+' novel'}
+function detail(id){const n=S.novels.find(x=>x.id==id);if(!n)return'<p class="emp">Tidak ditemukan.</p>';
+return`<div style="margin-top:16px">${bk('#/','Kembali')}</div><div class="card cov">${n.cover?`<img src="${n.cover}">`:'<div class="pc"></div>'}<div style="flex:1;min-width:200px"><h2 style="margin:0">${esc(n.title)}</h2><p><span class="chip on">${esc(n.cat)}</span>${n.tags.split(',').filter(t=>t.trim()).map(t=>`<span class="chip">#${esc(t.trim())}</span>`).join('')}</p><p>${rtLine(n.id)}</p><p>${esc(n.syn)}</p></div></div>${adH('mid')}
+<div class="card"><div class="sec" style="margin-top:0"><h2>${ic('book2',24)}Daftar Bab</h2></div>${n.chapters.map(c=>`<div class="row"><span>${esc(c.title)} ${c.key&&!UN.includes(n.id+'-'+c.id)?ic('lock',15):''}</span>${pub(c)?`<a class="btn" href="#/r/${n.id}/${c.id}">Baca</a>`:`<small>${ic('clock',14)} Terbit ${fmt(c.at)}</small>`}</div>`).join('')||'<p class="emp">Belum ada bab.</p>'}</div>`}
+function reader(nid,cid){const n=S.novels.find(x=>x.id==nid),c=n&&n.chapters.find(x=>x.id==cid);if(!c||!pub(c))return'<p class="emp">Bab belum tersedia.</p>';
+const i=n.chapters.indexOf(c),ok=!c.key||UN.includes(nid+'-'+cid),pv=n.chapters[i-1],nx=n.chapters[i+1];
+const lk=x=>x&&pub(x)?`href="#/r/${nid}/${x.id}"`:'style="opacity:.4;pointer-events:none"';
+return`<div style="margin-top:16px">${bk('#/n/'+nid,n.title)}</div><h2>${esc(c.title)}</h2>${adH('reader')}
+${ok?`<div class="card rd">${esc(c.content)}</div>`:`<div class="card" style="text-align:center"><div style="color:var(--cy)">${ic('lock',44)}</div><h3>Bab Terkunci</h3><p>Masukkan kata kunci untuk membaca bab ini.</p><input id="kk" placeholder="Kata kunci..." style="max-width:320px"><br><button class="btn" onclick="unlock(${nid},${cid})">${ic('key',18)}Buka Bab</button><p><small>Belum punya kunci? <a href="#/kunci" style="color:var(--cy)">Dapatkan Kunci</a></small></p></div>`}
+<div class="row"><a class="btn s" ${lk(pv)}>${ic('back',18)}Sebelumnya</a><a class="btn s" ${lk(nx)}>Berikutnya${ic('fwd',18)}</a></div>${ok?social(nid,cid):''}`}
+function rtH(n){const m=MY[n]||0;return`<div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"><span>${[1,2,3,4,5].map(i=>`<button class="star ${i<=m?'on':''}" onclick="rate(${n},${i})" aria-label="${i} bintang">${st(i<=m,30)}</button>`).join('')}</span>${rtLine(n)}</div><small>${m?'Rating Anda: '+m+' bintang (ketuk bintang lain untuk mengubah)':'Ketuk bintang untuk memberi rating'}</small>`}
+function rate(n,v){const r=S.rt[n]=S.rt[n]||{s:0,c:0},o=MY[n];if(o)r.s+=v-o;else{r.s+=v;r.c++}MY[n]=v;sv();svMY();document.getElementById('rt').innerHTML=rtH(n)}
+function cmH(n,c){const l=S.cm[n+'-'+c]||[];return l.length?l.map((x,i)=>`<div class="cm"><b>${esc(x.n)}</b>${x.a?'<span class="ab">ADMIN</span>':''} <small>${fmt(x.at)}</small>${adm?` <button class="btn d" style="padding:2px 10px" onclick="delCm(${n},${c},${i})">${ic('x',12)}</button>`:''}<p>${esc(x.t)}</p></div>`).reverse().join(''):'<p><small>Belum ada komentar. Jadilah yang pertama!</small></p>'}
+function social(n,c){return`<div class="card"><div class="sec" style="margin:0 0 10px"><h2>${ic('star',22)}Rating Novel</h2></div><div id="rt">${rtH(n)}</div></div>
+<div class="card"><div class="sec" style="margin:0 0 10px"><h2>${ic('chat',22)}Komentar</h2></div><label>Nama</label><input id="cmn" maxlength="30" value="${esc(MY.name||'')}" placeholder="Nama Anda"><label>Komentar</label><textarea id="cmt" rows="3" maxlength="500" placeholder="Tulis komentar..."></textarea><button class="btn" onclick="addCm(${n},${c})">${ic('chat',18)}Kirim Komentar</button><div id="cml" style="margin-top:14px">${cmH(n,c)}</div></div>`}
+function addCm(n,c){const nm=cmn.value.trim(),t=cmt.value.trim();if(!nm||!t)return alert('Nama dan komentar wajib diisi');const k=n+'-'+c;(S.cm[k]=S.cm[k]||[]).push({n:nm,t,at:now(),a:adm});MY.name=nm;sv();svMY();cmt.value='';document.getElementById('cml').innerHTML=cmH(n,c)}
+function delCm(n,c,i){if(!confirm('Hapus komentar ini?'))return;S.cm[n+'-'+c].splice(i,1);sv();document.getElementById('cml').innerHTML=cmH(n,c)}
+function unlock(nid,cid){const n=S.novels.find(x=>x.id==nid),c=n.chapters.find(x=>x.id==cid),v=document.getElementById('kk').value.trim().toLowerCase();
+const fr=S.set.freeKeys.split(',').map(x=>x.trim().toLowerCase()).filter(Boolean);
+if(v&&(v==c.key.toLowerCase()||fr.includes(v))){UN.push(nid+'-'+cid);try{localStorage.setItem(U,JSON.stringify(UN))}catch(e){}go()}else alert('Kata kunci salah.')}
+function jadwal(){const a=S.novels.flatMap(n=>n.chapters.map(c=>({n,c}))).sort((x,y)=>x.c.at-y.c.at);const up=a.filter(x=>!pub(x.c)),done=a.filter(x=>pub(x.c)).reverse().slice(0,10);
+const r=x=>`<div class="row"><span><b>${esc(x.n.title)}</b><br><small>${esc(x.c.title)}</small></span><small>${x.c.at?fmt(x.c.at):'Sudah terbit'}</small></div>`;
+return`<div class="sec"><h2>${ic('cal',26)}Jadwal Upload</h2></div><div class="card"><h3 style="margin-top:0">Akan Datang</h3>${up.map(r).join('')||'<small>Belum ada jadwal.</small>'}</div><div class="card"><h3 style="margin-top:0">Baru Terbit</h3>${done.map(r).join('')||'<small>-</small>'}</div>${adH('mid',1)}`}
+function sosmed(){return`<div class="sec"><h2>${ic('share',26)}Sosial Media</h2></div><div class="card">${S.set.social.split('\n').filter(Boolean).map(l=>{const[a,b]=l.split('|');return`<div class="row"><span>${esc(a)}</span><a class="btn" href="${esc(b)}" target="_blank" rel="noopener">Kunjungi</a></div>`}).join('')}</div>`}
+function kunci(){return`<div class="sec"><h2>${ic('key',26)}Dapatkan Kunci</h2></div><div class="card"><p>${esc(S.set.keyInfo)}</p><a class="btn" href="${wa('Halo admin, saya mau top up VIP / minta kunci')}" target="_blank">${ic('chat',18)}Hubungi Admin WhatsApp</a></div>`}
+/* ADMIN */
+function login(){return`<div class="card" style="max-width:400px;margin:30px auto"><h3 style="margin-top:0;display:flex;gap:10px;align-items:center;color:var(--cy)">${ic('shield',24)}<span style="color:var(--tx)">Login Admin</span></h3><label>Username</label><input id="u"><label>Sandi</label><input id="p" type="password"><button class="btn" onclick="if(u.value=='Fatir456'&&p.value=='Fatir45'){adm=true;go()}else alert('Username/sandi salah')">Masuk</button></div>`}
+function admin(){const T=[['novel','Novel','book2'],['ads','Iklan & Banner','mega'],['set','Pengaturan','gear']];
+return`<div class="sec"><h2>${ic('shield',26)}Dashboard Admin</h2></div><div>${T.map(t=>`<button class="chip ${tab==t[0]?'on':''}" onclick="tab='${t[0]}';go()">${ic(t[2],16)}${t[1]}</button>`).join('')}<button class="chip" onclick="adm=false;location.hash='#/'">${ic('out',16)}Keluar</button></div>${tab=='novel'?aNovel():tab=='ads'?aAds():aSet()}`}
+function aNovel(){const n=S.novels.find(x=>x.id==cur),v=n||{title:'',cat:'',syn:'',tags:''};
+const cl=S.novels.map(x=>`<div class="row"><b>${esc(x.title)}</b><span><button class="btn s" onclick="cur=${x.id};go()">Edit</button> <button class="btn d" onclick="if(confirm('Hapus novel?')){S.novels=S.novels.filter(y=>y.id!=${x.id});cur=null;sv();go()}">${ic('x',16)}</button></span></div>`).join('');
+return`<div class="card"><butt
